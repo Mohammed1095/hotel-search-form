@@ -1,0 +1,171 @@
+.container {
+  height: 100vh;
+  /* width: 100vw; */
+  background-image: linear-gradient(to right bottom, #33333374, #33333374),
+    url('../assets/tourism.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10vh 0 0 0;
+}
+.select-container Select {
+  /* Your styles here */
+  border: 1px solid #9e0a0a9e;
+  border-radius: 9999px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  padding: 3.2rem 4.8rem;
+  background-color: #0f959c6f;
+  width: 55%;
+  margin: 0 auto;
+
+  /* transform: translateY(-50%); */
+  font-size: 2rem;
+  border-radius: 15px;
+  color: white;
+}
+
+label {
+  font-weight: 500;
+}
+
+.select-nationality {
+  border-radius: 999px;
+  background-color: red;
+}
+/* .flex-coulmn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+} */
+
+label,
+input,
+select {
+  display: block;
+}
+input[type='date'] {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 555px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #333;
+  background-color: #fff;
+  outline: none;
+}
+input[type='date']::placeholder {
+  color: #3333336e;
+}
+
+.flex-to-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+select {
+  width: 100%;
+  height: 4.8rem;
+  border-radius: 555px;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2.2rem;
+  color: #4b4b4b;
+  box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+}
+
+.star-rating-input {
+  justify-self: flex-start;
+}
+
+.stars-label {
+  display: block;
+}
+
+select option {
+  border-radius: 555px;
+  font-size: 1.8rem;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+select::placeholder {
+  font-size: 1.8rem;
+  color: #3333336e;
+}
+select option:checked {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #3333336e;
+}
+
+.destination-hotel-name {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  column-gap: 5.6rem;
+}
+
+.in-out-nights {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20%;
+  column-gap: 5.6rem;
+}
+
+.nationality-advanced-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20%;
+  column-gap: 5.6rem;
+}
+
+/* .star-rating-input {
+  display: flex;
+} */
+
+.stars {
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.btn {
+  display: block;
+  align-self: flex-end;
+  padding: 1.6rem 2.4rem;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  border-radius: 555px;
+  font-weight: 700;
+}
+
+.serach-btn {
+  background-color: #b57400;
+}
+.serach-btn:hover {
+  background-color: #825200;
+  cursor: pointer;
+}
+
+.advanced-btn {
+  font-size: 1.6rem;
+  background-color: #333;
+}
+.advanced-btn:hover {
+  background-color: #494949;
+  cursor: pointer;
+}

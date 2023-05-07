@@ -1,0 +1,136 @@
+@media (max-width: 81em) {
+  .container {
+    height: 120vh;
+    padding: 2rem;
+  }
+  .body {
+    background-color: red;
+  }
+
+  .destination-hotel-name {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.8rem;
+  }
+  .in-out-nights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.8rem;
+  }
+  .nationality-advanced-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5.6rem;
+  }
+
+  .star-rating-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .serach-btn {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 61em) {
+  .form {
+    width: 90%;
+  }
+  .container {
+    height: 137vh;
+    /* width: 100vw; */
+  }
+  .in-out-nights {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.8rem;
+  }
+}
+
+@media (max-width: 39em) {
+  .container {
+    height: 150vh;
+    /* width: 100vw; */
+  }
+  .nationality-advanced-btn {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 3.2rem;
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .star-rating-input {
+    align-self: flex-start;
+  }
+}
+@media (max-width: 32em) {
+  .form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 20em) {
+  .container {
+    height: 120vh;
+    /* width: 100vw; */
+  }
+  .form {
+    gap: 3.2rem;
+    padding: 2.2rem 2.8rem;
+    width: 95%;
+    font-size: 1.4rem;
+  }
+  input[type='date'] {
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 555px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.4rem;
+    font-family: inherit;
+    color: #333;
+    background-color: #fff;
+    outline: none;
+  }
+
+  .flex-to-gap {
+    gap: 0.8rem;
+  }
+
+  input,
+  select {
+    height: 2.6rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    font-size: 1.6rem;
+  }
+
+  select option {
+    font-size: 1.4rem;
+  }
+
+  select::placeholder {
+    font-size: 1.4rem;
+  }
+
+  .in-out-nights {
+    column-gap: 3.2rem;
+  }
+
+  .nationality-advanced-btn {
+    column-gap: 3.2rem;
+  }
+
+  .stars {
+    height: 2.8rem;
+  }
+
+  .serach-btn,
+  .advanced-btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.4rem;
+  }
+}
