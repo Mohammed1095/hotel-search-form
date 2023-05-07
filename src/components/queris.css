@@ -38,7 +38,7 @@
     width: 90%;
   }
   .container {
-    height: 137vh;
+    height: 145vh;
     /* width: 100vw; */
   }
   .in-out-nights {
@@ -84,7 +84,7 @@
     width: 95%;
     font-size: 1.4rem;
   }
-  input[type='date'] {
+  input[type="date"] {
     padding: 0.8rem 1.6rem;
     border: none;
     border-radius: 555px;
